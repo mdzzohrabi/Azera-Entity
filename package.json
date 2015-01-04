@@ -3,12 +3,6 @@
     "description": "Azera Entity Component",
     "version": "1.0.0-alpha",
     "keywords": ["database","orm","entity","azera","component"],
-    "authors": [
-        {
-            "name": "Masoud Zohrabi",
-            "email":"mdzzohrabi@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=5.3"
     },

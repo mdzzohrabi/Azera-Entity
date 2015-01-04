@@ -1,3 +1,28 @@
 {
-
+    "name": "mdzzohrabi/azera-entity",
+    "version": "1.0.0-alpha",
+    "description": "Azera Entity Component",
+    "type": "library",
+    "keywords": [
+        "database",
+        "orm",
+        "entity",
+        "azera",
+        "component"
+    ],
+    "authors": [
+        {
+            "name": "Masoud Zohrabi",
+            "email": "mdzzohrabi@gmail.com"
+        }
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azera\\Entity\\": ""
+        }
+    }
 }

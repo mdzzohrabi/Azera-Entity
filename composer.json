@@ -1,7 +1,6 @@
 {
     "name": "azera/entity",
     "description": "Azera Entity Component",
-    "version": "1.0.0-alpha",
     "keywords": ["database","orm","entity","azera","component"],
     "authors": [
         {
@@ -9,6 +8,7 @@
             "email":"mdzzohrabi@gmail.com"
         }
     ],
+    "license": "proprietary",
     "require": {
         "php": ">=5.3"
     },

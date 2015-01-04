@@ -1,5 +1,5 @@
 {
-    "name": "azera/entity",
+    "name": "mdzzohrabi/azera-entity",
     "description": "Azera Entity Component",
     "type": "library",
     "keywords": [
@@ -22,41 +22,6 @@
     "autoload": {
         "psr-4": {
             "Azera\\Entity\\": ""
-        }
-    },
-    "packages": {
-        "azera/entity": {
-            "dev-master": {
-                "name": "azera/entity",
-                "description": "Azera Entity Component",
-                "type": "library",
-                "keywords": [
-                    "database",
-                    "orm",
-                    "entity",
-                    "azera",
-                    "component"
-                ],
-                "authors": [
-                    {
-                        "name": "Masoud Zohrabi",
-                        "email": "mdzzohrabi@gmail.com"
-                    }
-                ],
-                "license": "proprietary",
-                "require": {
-                    "php": ">=5.3"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Azera\\Entity\\": ""
-                    }
-                },
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:mdzzohrabi/azera-entity.git"
-                }
-            }
         }
     }
 }

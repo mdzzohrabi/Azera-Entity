@@ -1,6 +1,5 @@
 {
     "name": "mdzzohrabi/azera-entity",
-    "version": "1.0.0-alpha",
     "description": "Azera Entity Component",
     "type": "library",
     "keywords": [

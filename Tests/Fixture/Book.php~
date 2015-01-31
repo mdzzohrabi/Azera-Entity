@@ -1,0 +1,28 @@
+<?php
+namespace Azera\Entity\Tests\Fixture;
+
+/**
+ * @Entity @Table( name = "books" )
+ */
+class Book {
+   
+    /** @Id @Column( type = "integer" ) @GeneratedValue **/
+    protected $id;
+    
+    /** @Column( type = "string" ) */ 
+    protected $name;
+    
+    public function setName( $name ) {
+        $this->name = $name;
+    }
+    
+    public function getName() {
+        return $this->name;
+    }
+    
+    public function getId() {
+        return $this->id;
+    }
+    
+}
+?>

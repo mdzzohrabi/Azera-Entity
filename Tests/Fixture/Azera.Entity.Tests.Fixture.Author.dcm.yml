@@ -1,0 +1,14 @@
+Azera\Entity\Tests\Fixture\Author:
+    type: entity
+    table: authors
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: auto
+    fields:
+        name:
+            type: string
+    manyToMany:
+        books:
+            targetEntity: Book
